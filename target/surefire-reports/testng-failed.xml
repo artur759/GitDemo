@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Validating title in the Page(failed)" verbose="0">
+    <classes>
+      <class name="Academy.ValidateTitle">
+        <methods>
+          <include name="baseOageNavigation"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateTitle -->
+    </classes>
+  </test> <!-- Validating title in the Page(failed) -->
+  <test thread-count="5" parallel="tests" name="Validating the navbar(failed)" verbose="0">
+    <classes>
+      <class name="Academy.ValidateNavbar">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="baseOageNavigation"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavbar -->
+    </classes>
+  </test> <!-- Validating the navbar(failed) -->
+  <test thread-count="5" parallel="tests" name="Validating login(failed)" verbose="0">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+    </classes>
+  </test> <!-- Validating login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

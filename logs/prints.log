@@ -1,0 +1,3 @@
+09:38:43.428 [TestNG-tests-3] INFO  resources.Base - Driver is initialize
+09:38:43.435 [TestNG-tests-1] INFO  resources.Base - Succesfully wrote username and password
+09:38:43.819 [TestNG-tests-2] INFO  resources.Base - Driver is initialize

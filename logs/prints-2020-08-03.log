@@ -1,0 +1,7 @@
+09:23:31.750 [TestNG-tests-2] INFO  resources.Base - Navbar is printed. OK
+09:32:16.558 [TestNG-tests-1] INFO  resources.Base - Succesfully wrote username and password
+09:32:39.321 [TestNG-tests-3] INFO  resources.Base - Driver is initialize
+09:32:39.327 [TestNG-tests-1] INFO  resources.Base - Succesfully wrote username and password
+09:32:39.400 [TestNG-tests-2] INFO  resources.Base - Driver is initialize
+09:32:42.017 [TestNG-tests-2] INFO  resources.Base - Navigated to HomePage
+09:32:42.425 [TestNG-tests-3] INFO  resources.Base - Navigated to HomePage
